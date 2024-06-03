@@ -82,12 +82,12 @@ install_snell() {
     # 生成随机端口和密码
 
 # 询问用户输入端口
-echo -n "请输入一个端口号（介于 30000 到 65000 之间）: "
+echo -n "请输入一个端口号（介于 20000 到 65000 之间）: "
 read CUSTOM_PORT
 
 # 检查端口号是否有效
-if [[ "$CUSTOM_PORT" -lt 30000 ]] || [[ "$CUSTOM_PORT" -gt 65000 ]]; then
-    echo "输入的端口号无效，请输入介于 30000 到 65000 之间的端口号。"
+if [[ "$CUSTOM_PORT" -lt 20000 ]] || [[ "$CUSTOM_PORT" -gt 65000 ]]; then
+    echo "输入的端口号无效，请输入介于 20000 到 65000 之间的端口号。"
     exit 1
 fi
 
