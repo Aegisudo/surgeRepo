@@ -1,2 +1,3 @@
-DOMAIN-SUFFIX,nodeseek.com
-DOMAIN-SUFFIX,hostloc.com
+payload:
+- "+.nodeseek.com"
+- "+.hostloc.com"
