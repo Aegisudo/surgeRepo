@@ -61,7 +61,7 @@ install_snell() {
 
     # 使用用户输入的端口进行设置
     RANDOM_PORT=$CUSTOM_PORT
-    RANDOM_PSK=$(python3 -c 'import uuid; print(str(uuid.uuid5(uuid.NAMESPACE_DNS, "snell")))')
+    RANDOM_PSK=$(python3 -c 'import uuid; print(str(uuid.uuid4()))')
 
     # 创建配置文件目录
     mkdir -p ${CONF_DIR}
