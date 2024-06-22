@@ -18,17 +18,17 @@ PASSWORD=$(uuidgen)
 
 # Get user input for port number and domain
 read -p "Enter port number: " PORT
-read -p "Enter domain (default: bing.com): " DOMAIN
-
-# Use default domain if none provided
-if [ -z "$DOMAIN" ]; then
-    DOMAIN="bing.com"
-fi
-
 # Check if the port is in use
 if lsof -i:"$PORT" >/dev/null; then
     echo "Port $PORT is already in use, please choose another port."
     exit 1
+fi
+
+
+read -p "Enter domain (default: bing.com): " DOMAIN
+# Use default domain if none provided
+if [ -z "$DOMAIN" ]; then
+    DOMAIN="bing.com"
 fi
 
 # Create /etc/hysteria directory
