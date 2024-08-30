@@ -1,0 +1,29 @@
+## N26 - 2024.08.15
+
+DOMAIN,app.n26.com
+DOMAIN,api.tech26.de
+DOMAIN,get.n26.com
+DOMAIN,spc.n26.com
+DOMAIN,n26.my.site.com
+DOMAIN,support.n26.com
+DOMAIN,cdn.number26.de
+DOMAIN,n26-eu.c2nwa3.net
+DOMAIN,3ds-challenge.n26.com
+DOMAIN,n26-privacy.my.onetrust.com
+DOMAIN,n26-admedia.s3.eu-central-1.amazonaws.com
+DOMAIN,mcgthfrqrs95vdbzkhtchf5fc0g4.device.marketingcloudapis.com
+DOMAIN-SUFFIX,n26.com
+DOMAIN-SUFFIX,tech26.de
+DOMAIN-SUFFIX,number26.de
+DOMAIN-KEYWORD,n26
+IP-CIDR,213.95.145.10/32
+
+# Related Domains
+DOMAIN,api.idnow.de
+DOMAIN,video.idnow.de
+DOMAIN,app.adjust.com
+DOMAIN,app.usercentrics.eu
+DOMAIN,assets.ctfassets.net
+DOMAIN,images.ctfassets.net
+DOMAIN,geolocation.onetrust.com
+DOMAIN,www.datadoghq-browser-agent.com
